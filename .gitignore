@@ -1,0 +1,42 @@
+# Android Studio and local SDK configuration
+*.iml
+.idea/
+local.properties
+
+# Gradle and Kotlin caches/build output
+.gradle/
+.kotlin/
+build/
+**/build/
+
+# Native build output and captures
+.externalNativeBuild/
+.cxx/
+captures/
+
+# Generated application packages
+*.apk
+*.aab
+
+# Signing keys, signing configuration, and secrets
+keystore.properties
+signing.properties
+key.properties
+secrets.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.pk8
+*.der
+.env
+.env.*
+!.env.example
+
+# Local diagnostics and operating-system files
+*.hprof
+*.log
+.DS_Store
+Thumbs.db
